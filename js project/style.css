@@ -1,0 +1,116 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #5f7ce7, #0350df);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #ffffff;
+  color: #333;
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 50px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #2142b0;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  margin: 15px 0;
+  border: 2px solid #286ddb;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  text-align: center;
+  color: #333;
+}
+
+input[type="number"]:focus {
+  border-color: #6dd5ed;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+button#guess-btn {
+  background: #2142b0;
+  color: #fff;
+}
+
+button#guess-btn:hover {
+  background: #6dd5ed;
+}
+
+button#new-game-btn {
+  background: #32e05b;
+  color: #fff;
+}
+
+button#new-game-btn:hover {
+  background: #60d394;
+}
+
+.message {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #6a97f1;
+  min-height: 1.5em;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin: 15px 0;
+  background: #f8f9fa;
+}
+
+.status p {
+  margin: 0;
+  font-size: 1rem;
+  color: #012f03;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #9db5e5;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
