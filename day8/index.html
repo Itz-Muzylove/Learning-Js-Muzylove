@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Area Calculator</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <div class="container">
+    <h1>Area Calculator</h1>
+    <p>Select a shape, provide its dimensions, and calculate the area!</p>
+    
+    <label for="shape">Select a shape:</label>
+    <select id="shape" onchange="updateInputs()">
+      <option value="square">Square</option>
+      <option value="rectangle">Rectangle</option>
+      <option value="circle">Circle</option>
+      <option value="triangle">Triangle</option>
+    </select>
+
+    <div id="inputs">
+     
+    </div>
+
+    <button onclick="calculateArea()">Calculate Area</button>
+    <div class="output">
+      <p id="result">The area will be displayed here.</p>
+    </div>
+ 
+    <footer>
+      Developed with ❤ by Muzy Love <a href="#"></a>
+    </footer>
+     </div>
+  <script src="script.js"></script> 
+</body>
+</html>

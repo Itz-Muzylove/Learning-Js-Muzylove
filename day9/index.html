@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+  <div id="app">
+    <h1>🛒 Shopping Cart</h1>
+    <div id="products">
+      <h2>Products</h2>
+      <ul>
+        <li>
+          <span>Cake</span>
+          <span>10000 FCFA</span>
+          <button onclick="addToCart('Cake', 10000)">Add to Cart</button>
+        </li>
+        <li>
+          <span>Drinks</span>
+          <span>500FCFA</span>
+          <button onclick="addToCart('Drinks', 500)">Add to Cart</button>
+        </li>
+        <li>
+          <span>Biscuit</span>
+          <span>1000FCFA</span>
+          <button onclick="addToCart('Biscuit', 1000)">Add to Cart</button>
+        </li>
+         <li>
+          <span>Chocolate</span>
+          <span>15000 FCFA</span>
+          <button onclick="addToCart('Chocolate', 10000)">Add to Cart</button>
+        </li>
+        <li>
+          <span>Donuts</span>
+          <span>500FCFA</span>
+          <button onclick="addToCart('Donuts', 500)">Add to Cart</button>
+        </li>
+      </ul>
+    </div>
+    <div id="cart">
+      <h2>Your Cart</h2>
+      <ul id="cart-items">
+       
+      </ul>
+      <p id="total">Total:0FCFA</p>
+      <button id="clear-cart" onclick="clearCart()">Clear Cart</button>
+    </div>
+     <footer>
+      Developed with ❤ by Muzy Love <a href="#"></a>
+    </footer>
+  </div>
+  <script src="script.js"></script> 
+</body>
+</html>
