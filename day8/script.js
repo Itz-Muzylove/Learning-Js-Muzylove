@@ -1,4 +1,3 @@
-// Function to dynamically update input fields based on the selected shape
 function updateInputs() {
   const shape = document.getElementById('shape').value;
   const inputsContainer = document.getElementById('inputs');
