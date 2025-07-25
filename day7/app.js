@@ -1,5 +1,5 @@
 
-let randomNumber = Math.floor(Math.random() * 50) + 1; 
+let randomNumber = Math.floor(Math.random() * 20) + 1; 
 let attempts = 0;
 let bestScore = null;
 
@@ -15,7 +15,7 @@ guessBtn.addEventListener('click', () => {
   const userGuess = Number(guessInput.value);
 
   if (!userGuess || userGuess < 1 || userGuess > 50) {
-    message.textContent = '🚨 Please enter a valid number between 1 and 50!';
+    message.textContent = '🚨 Please enter a valid number between 1 and 20!';
     return;
   }
 
@@ -38,7 +38,7 @@ guessBtn.addEventListener('click', () => {
 });
 
 newGameBtn.addEventListener('click', () => {
-  randomNumber = Math.floor(Math.random() * 50) + 1;
+  randomNumber = Math.floor(Math.random() * 20) + 1;
   attempts = 0;
   attemptsDisplay.textContent = attempts;
   message.textContent = 'Make your first guess!';
