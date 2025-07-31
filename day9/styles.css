@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #87d8f6;
+  background-color: #EEF5FF;
   color: #333;
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@ body {
 /* App container */
 #app {
   max-width: 600px;
-  background: #eaa1f4;
+  background: #B4D4FF;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -25,7 +25,7 @@ body {
 /* Title */
 h1 {
   text-align: center;
-  color: #007bff;
+  color: black;
 }
 
 /* Section styling */
@@ -49,14 +49,14 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border: 1px solid #ec23c7;
+  border: 1px solid #B4D4FF;
   border-radius: 5px;
   margin-bottom: 10px;
   background: #f9f9f9;
 }
 p {
   display: flex;
-  border:1px solid #ec23c7;
+  border:1px solid #86B6F6;
   padding: 10px;
   background: #f9f9f9;
    text-align: center;
