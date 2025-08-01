@@ -7,6 +7,7 @@ function addContact(event) {
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
   const phone = document.getElementById('phone').value;
+  localStorage.getItem('contacts') && (contacts = JSON.parse(localStorage.getItem('contacts')));
 
   const contact = {
     id: Date.now(), 
@@ -50,6 +51,7 @@ function renderContacts() {
     `;
     contactList.appendChild(listItem);
   });
+    localStorage.setItem('contacts', JSON.stringify(contacts));
 }
 
 document.getElementById('contactForm').addEventListener('submit', addContact);
