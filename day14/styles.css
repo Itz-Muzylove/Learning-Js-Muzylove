@@ -4,18 +4,23 @@
     font-family: 'popins', sans-serif;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+}
 .container{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, #153677, #4e085f);
     padding: 10;
     align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .todo-app{
     width: 100%;
     max-width: 540px;
     background: #fff;
-    margin: 100px auto 20px;
+   
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
